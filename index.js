@@ -49,6 +49,7 @@ exports.decorateConfig = config => {
         width: .325rem !important;
       }
       .tabs_list {
+        margin-left: 0 !important;
         border-color: transparent !important;
       }
       .tab_tab {
@@ -64,12 +65,12 @@ exports.decorateConfig = config => {
       }
       .tab_tab.tab_active {
         color: ${foregroundColor} !important;
-        background-color: ${backgroundColor};
+        background-color: transparent;
         border-bottom: none !important;
         font-weight: bold;
       }
       .tabs_nav {
-      	background-color: #e6dfcb !important;
+      	background-color: transparent !important;
       }
       .tabs_borderShim {
       	border: transparent;
